@@ -1,31 +1,31 @@
 {
-	"name": "@author/package",
+	"name": "@outside/frontend-utilities",
 	"version": "0.0.0",
 	"description": "{description}",
 	"license": "MIT",
 	"author": {
 		"name": "Samantha",
-		"url": "https://github.com/{libauthor}"
+		"url": "https://github.com/pagevamp"
 	},
 	"keywords": [
 		"typescript"
 	],
-	"bugs": "https://github.com/{libauthor}/{libname}/issues",
+	"bugs": "https://github.com/pagevamp/frontend-utilities/issues",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/{libauthor}/{libname}.git"
+		"url": "git+https://github.com/pagevamp/frontend-utilities.git"
 	},
 	"funding": {
 		"type": "individual",
-		"url": "https://github.com/sponsors/{libauthor}"
+		"url": "https://github.com/sponsors/pagevamp"
 	},
 	"type": "module",
-	"main": "./dist/{libname}.umd.js",
-	"module": "./dist/{libname}.es.js",
+	"main": "./dist/frontend-utilities.umd.js",
+	"module": "./dist/frontend-utilities.es.js",
 	"exports": {
 		".": {
-			"import": "./dist/{libname}.es.js",
-			"require": "./dist/{libname}.umd.js"
+			"import": "./dist/frontend-utilities.es.js",
+			"require": "./dist/frontend-utilities.umd.js"
 		}
 	},
 	"types": "./dist/index.d.ts",
@@ -34,6 +34,9 @@
 	],
 	"directories": {
 		"test": "tests"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"scripts": {
 		"build": "vite build",
@@ -63,6 +66,9 @@
 		"@vitest/ui": "^0.33.0",
 		"eslint": "8.47.0",
 		"gh-pages": "6.0.0",
+		"eslint-config-prettier": "^9.0.0",
+		"prettier": "^3.0.2",
+		"sass": "^1.66.1",
 		"typedoc": "0.24.8",
 		"typescript": "5.1.6",
 		"vite": "^4.4.7",

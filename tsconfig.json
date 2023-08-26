@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"baseUrl": "./src",
+		"baseUrl": "./",
 		"esModuleInterop": true,
 		"declaration": true,
 		"forceConsistentCasingInFileNames": true,
@@ -9,7 +9,11 @@
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
-		"target": "ES2022"
+		"resolveJsonModule": true,
+		"target": "ES2022",
+		"paths": {
+			"src/*": ["./src/*"]
+		}
 	},
 	"include": [
 		"src/**/*.ts"
