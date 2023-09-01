@@ -67,7 +67,7 @@
 		"eslint": "8.47.0",
 		"gh-pages": "6.0.0",
 		"eslint-config-prettier": "^9.0.0",
-		"prettier": "^3.0.2",
+		"prettier": "^3.0.3",
 		"sass": "^1.66.1",
 		"typedoc": "0.24.8",
 		"typescript": "5.1.6",
